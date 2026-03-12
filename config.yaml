@@ -1,0 +1,34 @@
+#This config file is for the scripts:
+# 1) 1_Download_data.smk
+# 2) 2_Data_preprocess.smk
+# 3) 3_MSA_Trees.smk
+# 4) 4_Motif_search.smk
+
+#specify the reference species ID in accordance with UCSC prefix of the assembly 
+#(like 'hg38' or 'mm10' or 'mm39')
+ref_organism:
+ref_latin: #underscores instead of spaces!!
+
+#specify the reference genome annotation 
+ref_organism_annotation: 
+
+#choose wehther you need other genomes' annotations or not (FALSE by default, change if it's different)
+annotations_needed: False
+
+#path to the enhancer coordinates in 3-column bed format (chr - start - end)
+ref_enh: 
+
+#path to the list of species with columns: Species, Latin, Assembly, Annotation
+#Species - one word name
+#Assembly - in UCSC style like 'hg38' or 'mm10' or 'mm39'
+#Annotation - RefSeq (not GenBank!!) ID of the annotation
+#As a .csv file, separation by ';'!!
+sample_list: 
+
+
+#target group
+target_name:     #type how would you call your target. It doesn't affect calculations
+target_group:    #make a list with all species in a target group, underscores instead of spaces!!
+
+#if you want to add more groups, you will need manually change rules:
+# - 2_Data_preprocessed.smk, preparing_fasta_files_for_MSA - to get correct _enhancer_groups.csv file
