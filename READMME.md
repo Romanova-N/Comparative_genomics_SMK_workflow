@@ -14,14 +14,14 @@ After filling the config, you need to run 0_Input_validation.py script, to check
 
 Please, always do the dry run first and then proceed to the actual process.
 
-====================
+
 =====conda env======
-in the direction of the project run
+staying in the main directory of the project run
 conda env create -f envs/main.yaml
 
 before running the pipeline, activate the environment:
 conda activate name_of_env
-====================
+
 
 ### Short descriptions of the snakemake files
 - **1_Download_data.smk**
