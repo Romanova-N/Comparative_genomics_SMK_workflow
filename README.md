@@ -14,8 +14,7 @@ After filling the config, you need to run 0_Input_validation.py script, to check
 
 Please, always do the dry run first and then proceed to the actual process.
 
-
-=====conda env======
+_conda environment_
 staying in the main directory of the project run
 conda env create -f envs/main.yaml
 
@@ -48,8 +47,8 @@ and muscle iterative algorythm. Using two methods simuntaneously increase the ac
 - **4_Motif_search.smk**
 The last pipeline perform the motif search across all raw fasta files (!!) and then recalulates resulting coordinates to alighnment coordinates. Importantly: FIMO looks for motifs only in reference species sequence. According to FIMO reccommendations, we form a appropriate background with fasta-get-markov and adjust p-value threshold if the sequence is > 1000 bp (for more details read FIMO Tutorial)
 
-============
-Times and resouces for 4k enhancers, 22 species:
+
+_Times and resouces for 4k enhancers, 22 species:_
 1) 1_Download_data.smk - 30 min, STRICTLY 1 core
 2) 2_Data_preprocess.smk - 10 min, multiple cpus will not improve the time
 3) 3_MSA_Tree.smk - 8 h, more cpus can be provided to enhance phylogenetic trees construction
