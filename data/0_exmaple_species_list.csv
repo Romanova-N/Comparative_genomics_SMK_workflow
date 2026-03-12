@@ -1,0 +1,24 @@
+Species;Latin;Assembly;Annotation
+Human;Homo sapiens;hg38;;
+Bonobo;Pan paniscus;panPan3;;
+Gorilla;Gorilla gorilla;gorGor6;;
+Orangutan;Pongo abelii;ponAbe3;;
+Gibbon;Nomascus leucogenys;nomLeu3;;
+Rhesus;Macaca mulatta;rheMac10;;
+Proboscis monkey;Nasalis larvatus;nasLar1;;
+Marmoset;Callithrix jacchus;calJac4;;
+Mouse;Mus musculus;mm10;;
+Elephant;Loxodonta africana;loxAfr3;;
+Squirrel (thirteen-lined);Spermophilus tridecemlineatus;speTri2;;
+Bison;Bison bison;bisBis1;;
+Whale (minke);Balaenoptera acutorostrata;balAcu1;;
+Rhino (white);Ceratotherium simum;cerSim1;;
+Pangolin (Chinese);Manis pentadactyla;manPen1;;
+Panda (giant);Ailuropoda melanoleuca;ailMel1;;
+Megabat (large flying fox);Pteropus vampyrus;pteVam1;;
+Seal (Hawaiian monk seal);Neomonachus schauinslandi;neoSch1;;
+Dog;Canis lupus familiaris;canFam6;;
+Cat;Felis catus;felCat9;;
+Cow;Bos taurus;bosTau9;;
+Pig;Sus scrofa;susScr11;;
+Horse;Equus caballus;equCab3;;
