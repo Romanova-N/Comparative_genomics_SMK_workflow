@@ -1,4 +1,4 @@
-#### Comparative research of neural crest regulome in light f domestication
+## Comparative research of neural crest regulome in light f domestication
 
 ### Overview
 The pipeline was developed to facilitate the search of corresponding DNA regions across species via UCSC LiftOver tools. Pdrticulary it was used for the research aiming to understand the impact of regualatory regions involved in neural crest dvelopment in observed domestication phenomenon.
